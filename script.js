@@ -251,31 +251,31 @@ init();
 
 $(document).ready(function() {
 
-    var words = ["Végül is erről szól az anyaság: hogy a gyerek lesz az első.",
-    "Meglepő látni, ahogy egy fiatal nőből pár perccel a szülés után azonnal édesanya válik.",
-    "Egy anyának néha lopni-csalni kell, ha a világ legjobb anyja akar lenni.",
-    "Ez a jó anyák sorsa: a jelenlétük magától értetődővé válik.",
-    "Az anya képezi a családi boldogság központját.",
-    "Vannak dolgok, amikről kizárólag egy anyának lehet fogalma.",
-    "Nincs olyan b * tch a földön, mint egy anya, aki megijedt a gyerekei miatt.", 
-    "Az anyák szíve örökös melegágya a gondoknak és töprengéseknek, mikor gyermekeik jövőjéről van szó.",
-    "Egyetlen tökéletes anya sincs a világon.",
-    "Az anyaság egy folyamat, egy soha véget nem érő történet.",
-    "Az anyai ösztön sosem ésszerű, de ettől még nem helytelen.",
-    "Az anyaság nem teszt, hanem vallás: egy szövetség, amelyre felesküdünk, egy ígéret, amit megtartunk.",
-    "Az anyaszív örömét, búját és aggodalmait csak az anyák értik meg.",
-    "Az anyaság rém furcsa dolog, olyan, mintha az ember önmaga trójai falova lenne.",
-    "Az anya nem az a személy, akire támaszkodunk, hanem aki szükségtelenné teszi a támaszkodást.",
-    "Egyedül az anyák képesek a jövőben gondolkodni, hiszen életet adnak neki gyermekeikben.",
-    "Ha az evolúció valóban működik, akkor hogy lehet, hogy az anyáknak csak két kezük van?",
-    "Az anyák az egyetlen teremtmények, akik úgy gondolják, hogy bármire képesek, ha a gyermekeikről van.",
-    "Egy anya bárkit helyettesíthet, de őt senki más nem tudja.",
-    "Ha anya vagy, sohasem maradsz igazán egyedül a gondolataidban. Egy anya mindig kétszer gondolkodik: egyszer önmagáért, másodszor a gyermekéért.",
-    "Létezik-e hatalmasabb erő, mint az anyai szeretet, amely faltörő kosként töri be a várak kapuját, és árként sodor el minden útjába eső akadályt?",
-    "Van olyan része a szívednek, ami csak akkor nyílik ki, ha gyermeked lesz.",
-    "Azt hiszi az ember, hogy csak a szerelemtől törhet össze a szíve. Az egyetlen, ami éltet és felvidíthat, vagy elpusztíthat. Aztán... anyává válunk.",
-    "Isten szívének legragyogóbb műve az anyai szeretet.",
-    "Az anyák mind kissé őrültek. :) ", 
+    var words = ["– Hallom, a lányod hegedülni tanul. Na és, hogy halad? </br> – Nagyon jól. Neki köszönhetem, hogy megvehettem a szomszéd házat féláron.",
+    "– Miért vigyorog a kerti törpe? </br> – ??? </br> – Mert csiklandozza a seggét egy fűszál.",
+    "– Hogy hívják a részeg migránst? </br>  – Betántorgó.",
+    "– Szomszéd, használhatnám a fűnyíróját? </br> – Persze, csak ne vigye ki a kertemből…",
+    "- Mennyibe kerül ez a kutya? </br> Ötezer forintba. </br> - És hűséges fajta? </br>  - Meghiszem azt! Már vagy ötször eladtam, és reggelre mindig visszajött!",
+    "Két vadász beszélget az erdőben:  </br>  - Ha én megcélzok egy nyulat, az máris írhatja a végrendeletét!  </br>  A tisztáson hirtelen feltűnik a tapsifüles. A hencegő vadász előkapja a puskáját, rálő, de a nyúl elszalad.  </br>  Mire a másik epésen megjegyzi:  </br> - Úgy látom már szalad is a közjegyzőhöz...",
+    "Ebéd után a skót megkérdezi a pincért: </br>     - Iszik? </br>     - Soha! </br>     - Akkor nem is adok borra-valót!", 
+    "- Apu! Nem láttad a könyvemet a hosszú élet  titkáról? </br>     - Elégettem. </br>     - Micsoda? Mégis, hogy képzelted? </br>     - Az anyósom nagyon olvasgatta mostanában...",
+    "A férfi száguldozik az új sportautójával. Egyszer csak egy rendőr megállítja, és megkérdi tőle:  </br>    –  Nem látta a sebességkorlátozó táblát?  </br>   – Miért biztos úr, – kérdezi megdöbbent tekintettel a férfi, egy hatalmas csuklás kiséretében – Csak nem ellopta valaki?",
+    "Anyós a vejének: </br>     - Miért hoztál vattát a névnapomra, fiam? </br>     - Miért, nem fülbevalót kért, mama?",
+    "Annyit olvastam az alkohol és a dohányzás káros hatásáról, hogy elhatároztam, abbahagyom az olvasást!",
+    "A feleség egy ismerős arcot vesz észre az étteremben. Odaszól a férjének:  </br>    - Nézd csak, ott az a részeges alak az előző férjem! Mióta hét éve elváltam tőle, egyfolytában csak iszik, állandóan részeg!  </br>- Ez tényleg furcsa. - Ennyi ideig azért senki nem szokott ünnepelni!",
+    "Ül egy rendőr a pizzériában, és kér egy pizzát.   </br>    - Négyfelé, vagy nyolcfelé vágjam? - kérdi a pizzás.   </br>    - Azt hiszem, elég lesz négyre, nyolc szeletet már biztos nem tudnék megenni",
+    "- Mi a különbség az anyós és a ceruzaelem között?  </br>     - ??? </br>     - Az elemnek van pozitív oldala is.",
+    "- Remélem, fiam, nem rúgtál be! </br>    - Honnan tudom, hogy részeg vagyok-e? </br>    - Ha majd a szomszéd asztalnál ülő két vendéget négynek látod, akkor részeg vagy!</br> - De apa, ott csak egy vendég ül!",
+    "- Mi a különbség az anyós és a ceruzaelem között?  </br>     - ??? </br>     - Az elemnek van pozitív oldala is.",
+    "Anyósa temetéséről érkezik haza a férj, amikor hatalmas vihar támad. Dörög az ég, villámlik, és a szél egy cserepet is a fejére sodor a ház tetejéről. A férj felnéz, jól megszemléli viharos égboltot és igy szól:  - Na, úgy látszik felért!",
+    "Egy részeg ember botorkál hazafelé az utcán. Megállítja az első járókelőt:  </br>    - Elnézést! Nem tudja véletlenül, merre lakik a Kovács Józsi? </br>  - De hiszen maga az!  </br>    - Azt én is tudom, csak azt nem, hogy hol lakom!",
+    "Két barát beszélget: </br>      - Képzeld, az éjjel a te anyósoddal álmodtam. </br>      - És mit mondott? </br>      - Semmit. </br>      - Akkor az nem ő volt.",
+    "Egy részeg ül a kocsmában. Kér tíz felest és megissza. Ezután kilencet kér, és azt is megissza. Azután 8, 7, majd hat felest húz le egymás után, majd megszólal:</br> - Nem értem... Egyre kevesebbet iszom, mégis egyre részegebb vagyok!",
+    "Két barát beszélget egymással: </br>    - Mondd öregem, hogy szoktál le az alkoholról? </br>    - Muszáj volt, mert amikor részegen hazamentem, mindig duplán láttam az anyósomat.",
+    "- Mit mond a részeg focista?  </br>    - ???  </br>    - Berúgtam!",
+    "- Mi a különbség a kés és az anyós nyelve között? </br>         - ??? </br>         - A kés egy idő után elkopik.",
+    "- Miért gyűlölik a politikusok a Trabantot? </br>     - ??? </br>     - Mert kormányváltós.",
+    "- Te, engem mindig kizár az asszony a lakásból, ha részegen megyek haza... Mit tegyek, nincs valami ötleted?  </br>     - Én azt szoktam csinálni, hogy bekopogok, levetkőzöm, beadom a ruháimat az ajtón, és nincs az az asszony, aki hagyná, hogy a férje meztelenül ácsorogjon az utcán. </br>  - Rendben, kipróbálom... </br>  Legközelebb mikor találkoznak, megkérdi a másik: </br>  - Nos, bevált a tervem? </br>  - Hát, csak részben... </br>  - Hogyhogy részben? </br>  - Bekopogtam, levetkőztem, beadtam a ruháimat az ajtón, az becsukódott, ám ekkor hirtelen bemondta egy hang:  </br>  Deák tér következik..."  
     ];
 
     var message = "";
@@ -293,7 +293,7 @@ $(document).ready(function() {
     //day=25; // uncomment to skip to 25
 
     // Only work in December
-    if (month === 12) {
+    if (month === 11) {
         // Loop through each calendar window
         $("li").each(function(index) {
             var adventwindow = index + 1;

@@ -50,7 +50,7 @@ ul {
 }
 
 li {
-  font-family: "Caveat", cursive;
+  font-family: "M PLUS Rounded 1c", sans-serif;
   letter-spacing: -1px;
   font-weight: 400;
   background-color: #fff;
@@ -59,11 +59,11 @@ li {
   display: inline-block;
   color: #111;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 16px;
   padding: 10px;
   margin: 25px 12px;
-  width: 180px;
-  height: 180px;
+  width: 300px;
+  height: 220px;
   text-align: center;
   position: relative;
   vertical-align: top;
@@ -73,26 +73,19 @@ li {
 }
 
 ul li:last-child {
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/62105/santa.jpg")
-    center top;
   background-size: cover;
   display: block;
   clear: both;
-  font-size: 30px;
+  font-size: 15px;
   margin: 20px auto 0 auto;
-  width: 200px;
-  height: 275px;
+  width: 300px;
+  height: 440px;
 }
 
 ul li:last-child .door {
   font-size: 100px;
-  width: 200px;
-  height: 275px;
-  line-height: 240px;
-}
-
-ul li:last-child .revealed {
-  line-height: 123px;
+  width: 300px;
+  height: 440px;
 }
 
 .door {
@@ -110,8 +103,8 @@ ul li:last-child .revealed {
   border-left: 1px #eee solid;
   border-radius: 6px;
   padding: 15px;
-  width: 180px;
-  height: 180px;
+  width: 300px;
+  height: 220px;
   transform-origin: 0 40%;
   transition: all 0.4s ease-in-out;
   transform-style: preserve-3d;
@@ -164,7 +157,7 @@ ul li:last-child .revealed {
 
 @media screen and (min-width: 480px) {
   li {
-    margin: 25px 35px;
+    margin: 25px 80px;
   }
 }
 
